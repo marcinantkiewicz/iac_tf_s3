@@ -7,7 +7,6 @@ variable "aws_region" {
 variable "bucket_name" {
   description = "Name of the bucket"
   type        = string
-  default     = null # Setting to null allows locals to handle the fallback
 }
 
 variable "retention_days" {
